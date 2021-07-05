@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="30dp"
+        android:text="Data"
+        android:textSize="25sp"
+        android:gravity="center"/>
+
+
+    <TextView
+        android:scrollbars="vertical"
+        android:id="@+id/emptylist_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="Empty list:\n"
+        android:textSize="20sp" />
+    <TextView
+        android:scrollbars="vertical"
+        android:id="@+id/data_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:hint="morning ok"
+        android:textSize="20sp" />
+
+
+
+    <Button
+        android:background="#DD560D"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_home"
+        android:text="Home"
+        android:textColor="#fff"
+        android:textSize="20sp"/>
+
+
+</LinearLayout>
